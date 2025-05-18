@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <!DOCTYPE html>
+  <html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>دیوار تعامل - ارسال ضرب‌المثل</title>
+    <link rel="stylesheet" href="style.css">
+  <style>
+   
+
+    form {
+      max-width: 400px;
+      margin: 2rem auto;
+      background-color: #DAA520;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+      color: #4B2E00;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 15px;
+      border: none;
+      border-radius: 4px;
+      font-family: 'Noto Serif', serif;
+      font-size: 1rem;
+    }
+    textarea {
+      resize: vertical;
+      height: 100px;
+    }
+    button {
+      background-color: #8B4513;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #5A2E06;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Afghan Proverbs</h1>
+    <h2>حکمت‌های دل افغانستان</h2>
+    <nav>
+      <ul>
+        <li><a href="index.html">خانه</li>
+          <li><a href="gallery.html">گالری</li>
+
+        <li><a href="wall.html">دیواز تعاملی</a></li>
+    
+      </ul>
+    </nav>
+  </header>
+
+  <form>
+    <label for="proverb">ضرب‌المثل شما</label>
+    <textarea id="proverb" name="proverb" placeholder="ضرب‌المثل خود را اینجا وارد کنید..." required></textarea>
+
+    <label for="name">نام شما</label>
+    <input type="text" id="name" name="name" placeholder="نام خود را وارد کنید..." required />
+
+    <button type="submit">ارسال</button>
+  </form>
+
+  <footer style="text-align:center; margin-top:40px; font-size:0.9rem; color:#666;">
+    © 2025 تمامی حقوق این سایت و محتواهای آن محفوظ است.
+  </footer>
+</body>
+</html>
